@@ -3,4 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/visionto/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp css $DEPLOYPATH
+    - /bin/cp vendor $DEPLOYPATH
+     - /bin/cp img $DEPLOYPATH
+      - /bin/cp js $DEPLOYPATH
+       - /bin/cp scss $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
